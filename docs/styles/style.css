@@ -1,7 +1,7 @@
 @import url("font.css");
 
-.header {
-}
+/* .header {
+} */
 
 .header::before {
   position: absolute;

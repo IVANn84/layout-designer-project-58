@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
   },
+  "scripts": {
+    "build": "npm run build"
+  },
   "main": "",
   "devDependencies": {
     "htmlhint": "^1.1.4",
