@@ -10,23 +10,38 @@
   src: url("../fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf");
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: "OpenSans-VariableFont_wdth,wght", sans-serif;
   font-style: normal;
   font-variant: small-caps;
-  font-size: 16px;
+  font-size: inherit;
   line-height: 1.6em;
 
   color: #2a2626;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Neucha-Regular", sans-serif;
-  font-style: normal;
-  font-variant: small-caps;
-  font-size: 72px;
   line-height: 1.2em;
+  font-style: normal;
 
   color: #fe9a23;
 }
 
+h2 {
+  font-size: 60px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h3 {
+  font-size: 34px;
+}

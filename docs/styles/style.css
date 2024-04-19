@@ -1,8 +1,10 @@
 @import url("fonts.css");
 @import url("cssNormolaze.css");
 
-/* .header {
-} */
+.header {
+  display: flex;
+  justify-content: center;
+}
 
 .header::before {
   position: absolute;
@@ -19,29 +21,23 @@
   content: "";
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .container {
   position: relative;
 
   display: flex;
   flex-direction: column;
-
-  justify-content: space-between;
+  justify-content: flex-end;
+  
   padding: 100px 0px;
 
   width: 1100px;
   height: 914px;
+}
+
+.pp2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 .header-image {
@@ -56,6 +52,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .text-box {
   width: 540px;
   height: auto;
