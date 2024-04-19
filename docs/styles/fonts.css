@@ -1,0 +1,32 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Neucha-Regular";
+  src: url("../fonts/Neucha/Neucha-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "OpenSans";
+  src: url("../fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf");
+}
+
+body {
+  font-family: "OpenSans-VariableFont_wdth,wght", sans-serif;
+  font-style: normal;
+  font-variant: small-caps;
+  font-size: 16px;
+  line-height: 1.6em;
+
+  color: #2a2626;
+}
+
+h1 {
+  font-family: "Neucha-Regular", sans-serif;
+  font-style: normal;
+  font-variant: small-caps;
+  font-size: 72px;
+  line-height: 1.2em;
+
+  color: #fe9a23;
+}
+

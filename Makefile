@@ -9,5 +9,3 @@ lint:
 deploy:
 	npx surge ./src/
 
-build:
-	npm run build
